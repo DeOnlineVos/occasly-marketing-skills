@@ -1,11 +1,12 @@
 # Product Marketing Context
 
-**Document version:** v1
+**Document version:** v2
 **Last updated:** 2026-10-30
 **Bron van waarheid:** `occasly-site` (`src/lib/packages.ts`, `src/lib/site.ts`, `src/lib/systems.ts`) en `docs/masterplan.md`. Wijkt dit document daarvan af, dan wint de code. Prijzen en pakketinhoud nooit uit je hoofd gebruiken: altijd uit `packages.ts`.
 
 ## Changelog
 
+- v2 (2026-10-30): concurrentiebeeld uit de eerste prospectlijst (gemeente Heusden).
 - v1 (2026-10-30): eerste versie, opgesteld uit de site-code en het masterplan.
 
 ## Product Overview
@@ -51,9 +52,16 @@
 
 ## Competitive Landscape
 
-Nog niet onderzocht. Gebruik `competitor-profiling` voordat je concurrenten bij naam noemt. Noem nooit een concurrent in koude berichten.
+Nog niet diepgaand onderzocht. Gebruik `competitor-profiling` voordat je een concurrent in een vergelijking noemt. Noem nooit een concurrent in koude berichten.
 
-**Direct:** andere aanbieders van dealerwebsites met voorraadkoppeling (uit te zoeken, inclusief websites die voorraadleveranciers zelf aanbieden).
+**Wat we zagen in gemeente Heusden (prospectlijst, 30-10-2026, 79 bedrijven):**
+- VWE Websites is de grootste: 14 bedrijven met "Powered by VWE Websites" en een eigen pagina per auto. Template-restjes komen vaak voor (onvolledige WhatsApp-links, lege social-links).
+- Morgen Internet: 4 bedrijven met een eigen pagina per auto, deels met AutoData-koppeling. Ook hier template-restjes (een niet ingevulde `[company_name]`).
+- Voorraad in een kader van een ander domein, dus geen eigen pagina per auto: autodealers.nl (4), UCC-voorraadmodule (3), Mobilox (3), Hexon voorraadmodule (2), usedcarportal (1). Dit is de groep met de duidelijkste aanleiding.
+- Franchiseplatforms (Autovakmeester, Vakgarage, Bosch Car Service) en maatwerkbureaus (Tundra, ORshoots) komen een paar keer voor.
+
+**Direct:** VWE Websites, Morgen Internet, Autosoft, en losse voorraadwidgets (autodealers.nl, UCC, Mobilox, Hexon voorraadmodule).
+**Secondary:** algemene webbureaus, sitebuilders (Strato, IONOS, Mijndomein) en WordPress-bouwers.
 **Secondary:** algemene webbureaus en WordPress-bouwers.
 **Indirect:** alleen portalen (Marktplaats, AutoScout24) of geen website.
 

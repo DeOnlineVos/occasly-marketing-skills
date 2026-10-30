@@ -25,5 +25,16 @@
 | Werkt met een voorraadsysteem dat Occasly koppelt | +10 |
 | Nieuw bedrijf (nieuwe erkenning in de laatste 90 dagen) | +10 |
 | Merkdealer van een groep, export/groothandel, geen occasions | uitsluiten |
+| Heeft al een werkende site met een eigen pagina per auto (consumentendealer) | score 35, tier 3, notitie "overstapgesprek" |
+| Geen eigen site en niets online gevonden | score 30, tier 3, notitie "eerst bellen om te checken" |
 
 Tier 1: 70 of hoger. Tier 2: 50 tot 69. Tier 3: 30 tot 49. Onder 30: overslaan.
+
+De onderzoeker geeft per bedrijf ook een oordeel (hoog, middel, laag, onduidelijk, geen). Hoog zet de score op minstens 70, middel tussen 50 en 69, laag maximaal 35 (consumentendealer met eigen site) of 25, geen op 0. Bij twijfel wint het oordeel van de onderzoeker, met de reden in de notitie.
+
+## Lessen uit de eerste run (Heusden, 30-10-2026)
+
+- De zoektool vindt kleine Nederlandse bedrijven slecht. Werkt beter: voor de hand liggende domeinnamen proberen en de dealerpagina's van AutoScout24 en Marktplaats.
+- Controleer of een gevonden site echt bij het RDW-adres hoort. Gelijke namen in andere plaatsen kwamen meerdere keren voor.
+- Controleer de gemeente: RDW-plaats "Heusden" kan ook Heusden in gemeente Asten zijn (postcode 5725).
+- Sommige sites blokkeren bots (Cloudflare, captcha). Markeer die als "handmatig checken", niet als "geen site".
