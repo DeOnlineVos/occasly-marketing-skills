@@ -45,7 +45,8 @@ Robbert heeft gekozen om koude e-mail toe te staan, ook als de rechtsvorm een ee
 
 ## Kanalen en techniek
 
-- Koude mail: apart verzenddomein met eigen mailbox. Nooit via Resend (daar lopen de leadmails van occasly.nl en straks de mail van dealers over).
+- Koude mail: verzenddomein `nl-occasly.nl` (Vimexx), één mailbox, gekoppeld aan lemlist via SMTP/IMAP met lemwarm aan. Open- en kliktracking uit. Nooit via Resend (daar lopen de leadmails van occasly.nl en straks de mail van dealers over).
+- Aanvragen van occasly.nl staan in `site_leads` in de aparte Supabase-database van de site, niet in de platformdatabase.
 - Bellen: Robbert, met een belbriefing van één scherm.
 - LinkedIn: alleen handmatig door Robbert. Geen automatisering of scraping.
 
