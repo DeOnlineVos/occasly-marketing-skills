@@ -24,6 +24,16 @@ Deze motor gebruikt alleen deze variabelen. Sleutels met een ander merkvoorvoegs
 
 Waarden nooit printen, loggen of in de sheet of repo zetten.
 
+## Geplande runs
+
+| Routine | Wanneer (Europe/Amsterdam) | Spec |
+|---|---|---|
+| Occasly prospectlijst | maandag 06:54 | `.agents/loops/prospectlijst.md` |
+| Occasly aanvragen en concepten | werkdagen 8, 10, 12, 14, 16, 18 uur | `.agents/loops/aanvragen-en-concepten.md` |
+| Occasly weekrapport | maandag 07:56 | `.agents/loops/weekrapport.md` |
+
+Elke run heeft de Google Sheets-connector nodig. Alles stoppen: zet `Instellingen!B2` op `uit`, of zet de routines uit op claude.ai.
+
 ## Vaste regels
 
 1. **Noodknop eerst.** Lees bij elke run eerst `Instellingen!B2` in de Google Sheet. Staat daar niet `aan`, stop dan direct.
