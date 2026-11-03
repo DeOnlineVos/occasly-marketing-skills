@@ -7,7 +7,7 @@
 | **Purpose** | Robbert in één scherm laten zien wat de motor deed en wat er van hem nodig is. |
 | **Skills used** | `marketing-loops` (weekly-marketing-review), `revops`, `analytics`. |
 | **Loop body** | 1. Noodknop lezen. 2. Tellen over de afgelopen 7 dagen: nieuwe prospects per tier en regio; statuswijzigingen in Prospects; Wachtrij per status; aanvragen in `site_leads`; afmeldingen. 3. PageSpeed mobiel van occasly.nl meten. 4. Als `OCCASLY_LEMLIST_API_KEY` werkt: status van campagnes en verzonden mails. 5. Rapport schrijven in het format hieronder. |
-| **Self-check** | Alle getallen komen uit de sheet, Supabase of een meting van vandaag. Geen schattingen. |
+| **Self-check** | Alle getallen komen uit de sheet, Supabase of een meting van vandaag. Geen schattingen. Aanvragen van vóór `Instellingen!B17` zijn bewust niet uitgewerkt; tel als "onverwerkt" alleen aanvragen van na `B17` zonder rij in de Wachtrij. Campagnes in lemlist maakt de motor zelf aan; vraag Robbert daar nooit om. |
 | **State / idempotency** | Eén rapport per week; staat er deze week al een weekrapport in Logboek, dan niets doen. |
 | **Stop / bail-out** | Noodknop uit; sheet niet bereikbaar. |
 | **Output** | Eén regel in Logboek (Loop "weekrapport", Details = het rapport) en het rapport als laatste bericht van de run. |

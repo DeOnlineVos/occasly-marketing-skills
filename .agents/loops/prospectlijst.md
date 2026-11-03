@@ -59,5 +59,6 @@ Bepaal de plaatsen per gemeente niet uit je hoofd. Controleer per bedrijf de gem
 - Maximaal 50 nieuwe bedrijven per run. Sleutel is het RDW-volgnummer; een bedrijf dat al in Prospects staat, sla je over.
 - Vooraf wegfilteren op naam: scooters, tweewielers, motoren (tenzij ook auto's), caravans, campers, aanhangwagens, camping, detailing, demontage, machines, taxatie.
 - Per bedrijf: website zoeken (zoekmachine, voor de hand liggende domeinnamen, dealerpagina's op AutoScout24 en Marktplaats), homepage en voorraadpagina laden met curl, PageSpeed mobiel meten met `PAGESPEED_API_KEY`, en de kolommen van Prospects vullen. Een URL die je niet hebt geladen, noteer je niet.
+- Vul het aantal auto's in (kolom H) als het op de site of de dealerpagina van AutoScout24 of Marktplaats staat.
 - Nieuwe rijen achteraan in Prospects, Status "nieuw" (of "niet benaderen" onder score 30), Gecheckt op = vandaag.
 - Eén regel in Logboek met aantallen per tier, zonder persoonsgegevens.

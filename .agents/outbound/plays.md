@@ -2,6 +2,13 @@
 
 Elke play: aanleiding, voor wie, aanbod, opvolging, maatstaf. Een signaal mag alleen gebruikt worden als het binnen 30 dagen gemeten is.
 
+## Schrijfregels voor elke mail en belbriefing
+
+- Schrijf voor een autohandelaar, niet voor een webbouwer. Geen woorden als script, iframe, widget, HTML, LCP of plugin. Zeg wat het voor hem betekent, bijvoorbeeld: "De auto's op je voorraadpagina komen uit een los kader van je leverancier en hebben geen eigen pagina op je site."
+- Snelheid alleen noemen als de score laag is (onder 50), en dan als "de snelheidstest van Google geeft je site op mobiel [score] van 100". Geen laadtijden in seconden: die komen uit een gesimuleerde trage verbinding en kloppen niet met wat de dealer op zijn eigen telefoon ziet.
+- Begin met de bevinding die de dealer zelf kan nazien op zijn telefoon (geen telefoonnummer, lege voorraadpagina, auto's zonder eigen pagina).
+- Maximaal één link in een eerste mail (demo.occasly.nl, met de vermelding "fictief demobedrijf").
+
 ## 1. Websitecheck
 
 - **Aanleiding:** een concrete, zelf gemeten bevinding op de site van het bedrijf: voorraad in een kader van een leverancier zonder eigen pagina's per auto, trage site op mobiel, geen bel- of WhatsAppknop, verouderde site.
