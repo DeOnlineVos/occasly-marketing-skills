@@ -38,3 +38,26 @@ De onderzoeker geeft per bedrijf ook een oordeel (hoog, middel, laag, onduidelij
 - Controleer of een gevonden site echt bij het RDW-adres hoort. Gelijke namen in andere plaatsen kwamen meerdere keren voor.
 - Controleer de gemeente: RDW-plaats "Heusden" kan ook Heusden in gemeente Asten zijn (postcode 5725).
 - Sommige sites blokkeren bots (Cloudflare, captcha). Markeer die als "handmatig checken", niet als "geen site".
+
+## Regio's in volgorde
+
+De huidige regio staat in `Instellingen!B3`. Zijn alle RDW-bedrijven met erkenning Bedrijfsvoorraad uit die gemeente gecheckt, schuif dan door naar de volgende gemeente in deze lijst en zet die in `Instellingen!B3`.
+
+1. Gemeente Heusden (klaar op 30-10-2026)
+2. Gemeente Waalwijk
+3. Gemeente Vught
+4. Gemeente 's-Hertogenbosch (groot: verdelen over meerdere weken, 50 per week)
+5. Gemeente Sint-Michielsgestel
+6. Gemeente Loon op Zand
+7. Gemeente Maasdriel
+8. Gemeente Oss
+
+Bepaal de plaatsen per gemeente niet uit je hoofd. Controleer per bedrijf de gemeente via de postcode met de PDOK Locatieserver (`https://api.pdok.nl/bzk/locatieserver/search/v3_1/free?q=<postcode>&fq=type:postcode`, veld `gemeentenaam`). Zo valt bijvoorbeeld Heusden in gemeente Asten buiten de lijst.
+
+## Werkwijze per run
+
+- Maximaal 50 nieuwe bedrijven per run. Sleutel is het RDW-volgnummer; een bedrijf dat al in Prospects staat, sla je over.
+- Vooraf wegfilteren op naam: scooters, tweewielers, motoren (tenzij ook auto's), caravans, campers, aanhangwagens, camping, detailing, demontage, machines, taxatie.
+- Per bedrijf: website zoeken (zoekmachine, voor de hand liggende domeinnamen, dealerpagina's op AutoScout24 en Marktplaats), homepage en voorraadpagina laden met curl, PageSpeed mobiel meten met `PAGESPEED_API_KEY`, en de kolommen van Prospects vullen. Een URL die je niet hebt geladen, noteer je niet.
+- Nieuwe rijen achteraan in Prospects, Status "nieuw" (of "niet benaderen" onder score 30), Gecheckt op = vandaag.
+- Eén regel in Logboek met aantallen per tier, zonder persoonsgegevens.
